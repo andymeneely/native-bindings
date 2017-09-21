@@ -1,8 +1,8 @@
 # Native Bindings Examples
 
-This is a collection of simples examples of Native bindings, collected for the RIT SE course Software Performance Engineering.
+This is a collection of simple examples of Native bindings, collected for the RIT SE course Software Performance Engineering.
 
-Contributions welcome!! The more exmaples we have the better. In fact, maybe your professor will give extra credit for a pull request ;)
+Contributions welcome!! The more examples we have, the better. In fact, maybe your professor will give extra credit for a pull request ;)
 
 Examples we would love to have:
 * Ruby to Rust 
