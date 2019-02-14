@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // For Python Bindings use: 
-// gcc -shared -Wl,-install_name,lab3.so -o lab3.so -fPIC lab3.c
+// gcc -shared -o lab3.so -fPIC lab3.c
 // python3 cPython.py
 
 int multiply(int, int);
