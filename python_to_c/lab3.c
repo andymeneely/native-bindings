@@ -6,20 +6,12 @@
 // python3 cPython.py
 
 int multiply(int, int);
-int hammingDistance(int, int);
+
+char[] helloworld() {
+	char str[] = "Hello, World!";
+	return str);
+}
 
 int multiply(int num1, int num2) {
     return num1 * num2;
-}
-
-int hammingDistance(int n1, int n2) {
-	int x = n1 ^ n2; 
-	int setBits = 0; 
-
-	while (x > 0) { 
-		setBits += x & 1; 
-		x >>= 1; 
-	} 
-
-	return setBits; 
 }
