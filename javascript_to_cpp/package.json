@@ -1,0 +1,16 @@
+{
+    "name": "native",
+    "version": "0.1.0",
+    "description": "native bindings",
+    "scripts": {
+        "start": "node main.js",
+        "postinstall": "npm run configure",
+        "configure": "node-gyp configure",
+        "build": "node-gyp build",
+        "rebuild": "node-gyp rebuild"
+    },
+    "dependencies": {
+        "bindings": "^1.4.0",
+        "node-gyp": "^3.8.0"
+    }
+}
