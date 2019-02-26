@@ -5,7 +5,7 @@ This is intended for students in the RIT Software Performance Engineering course
 For us, this is designed to work on Nitron, an OpenBSD server. 
 
 1. Clone this repo to somewhere in your home directory on nitron. 
-2. `cd` into `ruby_to_c/Hello`
+2. `cd` into `ruby/ruby_c_extension/Hello`
 3. Run `make` to build the C library
 4. Run `ruby ../main.rb` (if you are still in the Hello directory - where you execute this doesn't matter)
 5. If the output showed "Hello, World" and a 20, then it worked!!

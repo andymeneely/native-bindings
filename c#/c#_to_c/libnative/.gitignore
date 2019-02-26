@@ -1,0 +1,5 @@
+lib/
+Release/
+x64/
+x86/
+*.vcxproj.user
