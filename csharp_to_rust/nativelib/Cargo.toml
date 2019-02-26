@@ -1,0 +1,15 @@
+[package]
+name = "nativelib"
+version = "0.1.0"
+authors = ["jdc5443 <jdc5443@rit.edu>"]
+edition = "2018"
+
+[dev-dependencies]
+criterion = "0.2"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[[bench]]
+name = "my_bench"
+harness = false
